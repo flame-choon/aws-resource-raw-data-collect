@@ -1,0 +1,64 @@
+{
+    "VpcEndpoints": [
+       {
+          "VpcEndpointId": "vpce-0c7a3b74bf9b1aeb9",
+          "VpcEndpointType": "Interface",
+          "VpcId": "vpc-07c41a395ef34a994",
+          "ServiceName": "com.amazonaws.ap-northeast-2.airflow.api",
+          "State": "pending",
+          "PolicyDocument": "{\n  \"Statement\": [\n    {\n      \"Action\": \"*\", \n      \"Effect\": \"Allow\", \n      \"Principal\": \"*\", \n      \"Resource\": \"*\"\n    }\n  ]\n}",
+          "RouteTableIds": [],
+          "SubnetIds": [
+             "subnet-0e082c4c49024908b"
+          ],
+          "Groups": [
+             {
+                "GroupId": "sg-0156a61ad7c84a1d6",
+                "GroupName": "redis-test"
+             }
+          ],
+          "PrivateDnsEnabled": true,
+          "RequesterManaged": false,
+          "NetworkInterfaceIds": [
+             "eni-069233b4ad36aecd5"
+          ],
+          "DnsEntries": [
+             {
+                "DnsName": "vpce-0c7a3b74bf9b1aeb9-llrcmk42.api.airflow.ap-northeast-2.vpce.amazonaws.com",
+                "HostedZoneId": "Z27UANNT0PRK1T"
+             },
+             {
+                "DnsName": "vpce-0c7a3b74bf9b1aeb9-llrcmk42-ap-northeast-2a.api.airflow.ap-northeast-2.vpce.amazonaws.com",
+                "HostedZoneId": "Z27UANNT0PRK1T"
+             },
+             {
+                "DnsName": "api.airflow.ap-northeast-2.amazonaws.com",
+                "HostedZoneId": "Z019520333BYVFQIGCKT3"
+             }
+          ],
+          "CreationTimestamp": "2022-04-20 09:59:14.699000+00:00",
+          "Tags": [
+             {
+                "Key": "Name",
+                "Value": "my-endpoint"
+             }
+          ],
+          "OwnerId": "767404772322"
+       }
+    ],
+    "ResponseMetadata": {
+       "RequestId": "0a4e8431-0025-4628-b65e-3153ffcd80b4",
+       "HTTPStatusCode": 200,
+       "HTTPHeaders": {
+          "x-amzn-requestid": "0a4e8431-0025-4628-b65e-3153ffcd80b4",
+          "cache-control": "no-cache, no-store",
+          "strict-transport-security": "max-age=31536000; includeSubDomains",
+          "vary": "accept-encoding",
+          "content-type": "text/xml;charset=UTF-8",
+          "transfer-encoding": "chunked",
+          "date": "Wed, 20 Apr 2022 10:00:23 GMT",
+          "server": "AmazonEC2"
+       },
+       "RetryAttempts": 0
+    }
+ }

@@ -1,0 +1,81 @@
+{
+    "DeliveryStreamDescription": {
+       "DeliveryStreamName": "KDS-S3-ZyoFY",
+       "DeliveryStreamARN": "arn:aws:firehose:ap-northeast-2:767404772322:deliverystream/KDS-S3-ZyoFY",        
+       "DeliveryStreamStatus": "ACTIVE",
+       "DeliveryStreamType": "KinesisStreamAsSource",
+       "VersionId": "1",
+       "CreateTimestamp": "2022-04-25 17:43:06.667000+09:00",
+       "Source": {
+          "KinesisStreamSourceDescription": {
+             "KinesisStreamARN": "arn:aws:kinesis:ap-northeast-2:767404772322:stream/kinesis-data-stream",     
+             "RoleARN": "arn:aws:iam::767404772322:role/service-role/KinesisFirehoseServiceRole-KDS-S3-Z-ap-northeast-2-1650876148228",
+             "DeliveryStartTimestamp": "2022-04-25 17:43:06.667000+09:00"
+          }
+       },
+       "Destinations": [
+          {
+             "DestinationId": "destinationId-000000000001",
+             "S3DestinationDescription": {
+                "RoleARN": "arn:aws:iam::767404772322:role/service-role/KinesisFirehoseServiceRole-KDS-S3-Z-ap-northeast-2-1650876148228",
+                "BucketARN": "arn:aws:s3:::kwangjin-data-lake",
+                "Prefix": "",
+                "ErrorOutputPrefix": "",
+                "BufferingHints": {
+                   "SizeInMBs": 5,
+                   "IntervalInSeconds": 300
+                },
+                "CompressionFormat": "UNCOMPRESSED",
+                "EncryptionConfiguration": {
+                   "NoEncryptionConfig": "NoEncryption"
+                },
+                "CloudWatchLoggingOptions": {
+                   "Enabled": true,
+                   "LogGroupName": "/aws/kinesisfirehose/KDS-S3-ZyoFY",
+                   "LogStreamName": "DestinationDelivery"
+                }
+             },
+             "ExtendedS3DestinationDescription": {
+                "RoleARN": "arn:aws:iam::767404772322:role/service-role/KinesisFirehoseServiceRole-KDS-S3-Z-ap-northeast-2-1650876148228",
+                "BucketARN": "arn:aws:s3:::kwangjin-data-lake",
+                "Prefix": "",
+                "ErrorOutputPrefix": "",
+                "BufferingHints": {
+                   "SizeInMBs": 5,
+                   "IntervalInSeconds": 300
+                },
+                "CompressionFormat": "UNCOMPRESSED",
+                "EncryptionConfiguration": {
+                   "NoEncryptionConfig": "NoEncryption"
+                },
+                "CloudWatchLoggingOptions": {
+                   "Enabled": true,
+                   "LogGroupName": "/aws/kinesisfirehose/KDS-S3-ZyoFY",
+                   "LogStreamName": "DestinationDelivery"
+                },
+                "ProcessingConfiguration": {
+                   "Enabled": false,
+                   "Processors": []
+                },
+                "S3BackupMode": "Disabled",
+                "DataFormatConversionConfiguration": {
+                   "Enabled": false
+                }
+             }
+          }
+       ],
+       "HasMoreDestinations": false
+    },
+    "ResponseMetadata": {
+       "RequestId": "f33cafbf-6139-04de-a9dc-cb351858e7c4",
+       "HTTPStatusCode": 200,
+       "HTTPHeaders": {
+          "x-amzn-requestid": "f33cafbf-6139-04de-a9dc-cb351858e7c4",
+          "x-amz-id-2": "qBozeTzZsIc8DYmN07Et9S1BzQXe0PtvmTTyBCaImIfH97X3B/r0ftJ69OAaTXiAiKKh0VPIiM84/PT2doEfIQFxTBRuN862",
+          "content-type": "application/x-amz-json-1.1",
+          "content-length": "1871",
+          "date": "Mon, 25 Apr 2022 08:56:42 GMT"
+       },
+       "RetryAttempts": 0
+    }
+ }

@@ -1,0 +1,27 @@
+{
+    "Policy": {
+       "PolicyName": "AmazonRedshift-CommandsAccessPolicy-20220405T160628",
+       "PolicyId": "ANPA3FLHDRPRJ7AOZ7X6M",
+       "Arn": "arn:aws:iam::767404772322:policy/service-role/AmazonRedshift-CommandsAccessPolicy-20220405T160628",
+       "Path": "/service-role/",
+       "DefaultVersionId": "v1",
+       "AttachmentCount": 1,
+       "PermissionsBoundaryUsageCount": 0,
+       "IsAttachable": true,
+       "CreateDate": "2022-04-05 07:06:29+00:00",
+       "UpdateDate": "2022-04-05 07:06:29+00:00",
+       "Tags": []
+    },
+    "ResponseMetadata": {
+       "RequestId": "1513e709-a4cb-416c-a416-f5c79b826588",
+       "HTTPStatusCode": 200,
+       "HTTPHeaders": {
+          "x-amzn-requestid": "1513e709-a4cb-416c-a416-f5c79b826588",
+          "content-type": "text/xml",
+          "content-length": "865",
+          "date": "Mon, 25 Apr 2022 09:31:52 GMT"
+       },
+       "RetryAttempts": 0
+    }
+ }
+ 

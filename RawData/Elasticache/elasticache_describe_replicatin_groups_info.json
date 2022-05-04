@@ -1,0 +1,117 @@
+{
+    "ReplicationGroups": [
+       {
+          "ReplicationGroupId": "test-redis",
+          "Description": " ",
+          "GlobalReplicationGroupInfo": {},
+          "Status": "available",
+          "PendingModifiedValues": {},
+          "MemberClusters": [
+             "test-redis-0001-001",
+             "test-redis-0001-002",
+             "test-redis-0001-003",
+             "test-redis-0002-001",
+             "test-redis-0002-002",
+             "test-redis-0002-003",
+             "test-redis-0003-001",
+             "test-redis-0003-002",
+             "test-redis-0003-003"
+          ],
+          "NodeGroups": [
+             {
+                "NodeGroupId": "0001",
+                "Status": "available",
+                "Slots": "0-5461",
+                "NodeGroupMembers": [
+                   {
+                      "CacheClusterId": "test-redis-0001-001",
+                      "CacheNodeId": "0001",
+                      "PreferredAvailabilityZone": "ap-northeast-2a"
+                   },
+                   {
+                      "CacheClusterId": "test-redis-0001-002",
+                      "CacheNodeId": "0001",
+                      "PreferredAvailabilityZone": "ap-northeast-2b"
+                   },
+                   {
+                      "CacheClusterId": "test-redis-0001-003",
+                      "CacheNodeId": "0001",
+                      "PreferredAvailabilityZone": "ap-northeast-2a"
+                   }
+                ]
+             },
+             {
+                "NodeGroupId": "0002",
+                "Status": "available",
+                "Slots": "5462-10922",
+                "NodeGroupMembers": [
+                   {
+                      "CacheClusterId": "test-redis-0002-001",
+                      "CacheNodeId": "0001",
+                      "PreferredAvailabilityZone": "ap-northeast-2b"
+                   },
+                   {
+                      "CacheClusterId": "test-redis-0002-002",
+                      "CacheNodeId": "0001",
+                      "PreferredAvailabilityZone": "ap-northeast-2a"
+                   },
+                   {
+                      "CacheClusterId": "test-redis-0002-003",
+                      "CacheNodeId": "0001",
+                      "PreferredAvailabilityZone": "ap-northeast-2b"
+                   }
+                ]
+             },
+             {
+                "NodeGroupId": "0003",
+                "Status": "available",
+                "Slots": "10923-16383",
+                "NodeGroupMembers": [
+                   {
+                      "CacheClusterId": "test-redis-0003-001",
+                      "CacheNodeId": "0001",
+                      "PreferredAvailabilityZone": "ap-northeast-2a"
+                   },
+                   {
+                      "CacheClusterId": "test-redis-0003-002",
+                      "CacheNodeId": "0001",
+                      "PreferredAvailabilityZone": "ap-northeast-2b"
+                   },
+                   {
+                      "CacheClusterId": "test-redis-0003-003",
+                      "CacheNodeId": "0001",
+                      "PreferredAvailabilityZone": "ap-northeast-2a"
+                   }
+                ]
+             }
+          ],
+          "AutomaticFailover": "enabled",
+          "MultiAZ": "enabled",
+          "ConfigurationEndpoint": {
+             "Address": "test-redis.pdn12g.clustercfg.apn2.cache.amazonaws.com",
+             "Port": 6379
+          },
+          "SnapshotRetentionLimit": 1,
+          "SnapshotWindow": "00:00-01:00",
+          "ClusterEnabled": true,
+          "CacheNodeType": "cache.r6g.large",
+          "AuthTokenEnabled": false,
+          "TransitEncryptionEnabled": false,
+          "AtRestEncryptionEnabled": false,
+          "ARN": "arn:aws:elasticache:ap-northeast-2:767404772322:replicationgroup:test-redis",
+          "LogDeliveryConfigurations": [],
+          "ReplicationGroupCreateTime": "2022-04-25 07:35:38.579000+00:00"
+       }
+    ],
+    "ResponseMetadata": {
+       "RequestId": "f0581a64-4cfa-4f2c-a14c-2fa0b92070c9",
+       "HTTPStatusCode": 200,
+       "HTTPHeaders": {
+          "x-amzn-requestid": "f0581a64-4cfa-4f2c-a14c-2fa0b92070c9",
+          "content-type": "text/xml",
+          "content-length": "5289",
+          "date": "Mon, 25 Apr 2022 07:53:37 GMT"
+       },
+       "RetryAttempts": 0
+    }
+ }

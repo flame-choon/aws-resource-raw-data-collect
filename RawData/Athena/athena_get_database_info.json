@@ -1,0 +1,17 @@
+{
+    "Database": {
+       "Name": "upbit-krwbtc-minute-data-database"
+    },
+    "ResponseMetadata": {
+       "RequestId": "3d364e5b-e627-4f8f-88a1-95f4efc3bfb8",
+       "HTTPStatusCode": 200,
+       "HTTPHeaders": {
+          "content-type": "application/x-amz-json-1.1",
+          "date": "Mon, 25 Apr 2022 10:06:05 GMT",
+          "x-amzn-requestid": "3d364e5b-e627-4f8f-88a1-95f4efc3bfb8",
+          "content-length": "57",
+          "connection": "keep-alive"
+       },
+       "RetryAttempts": 0
+    }
+ }

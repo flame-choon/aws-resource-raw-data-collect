@@ -1,0 +1,88 @@
+{
+    "NetworkAcls": [
+       {
+          "Associations": [
+             {
+                "NetworkAclAssociationId": "aclassoc-03c21cd1a6d0c590f",
+                "NetworkAclId": "acl-0b93b4271b091e56e",
+                "SubnetId": "subnet-0cba48789535597d6"
+             },
+             {
+                "NetworkAclAssociationId": "aclassoc-010ecea794e243a2d",
+                "NetworkAclId": "acl-0b93b4271b091e56e",
+                "SubnetId": "subnet-0afffc1da5f095309"
+             },
+             {
+                "NetworkAclAssociationId": "aclassoc-0b9091c4a60587922",
+                "NetworkAclId": "acl-0b93b4271b091e56e",
+                "SubnetId": "subnet-0e082c4c49024908b"
+             },
+             {
+                "NetworkAclAssociationId": "aclassoc-07873f13b24703698",
+                "NetworkAclId": "acl-0b93b4271b091e56e",
+                "SubnetId": "subnet-051809d7488bb2545"
+             },
+             {
+                "NetworkAclAssociationId": "aclassoc-08c04edaf25d7bf8a",
+                "NetworkAclId": "acl-0b93b4271b091e56e",
+                "SubnetId": "subnet-0be7b4c47914ad5b4"
+             },
+             {
+                "NetworkAclAssociationId": "aclassoc-063c87641d19a34e2",
+                "NetworkAclId": "acl-0b93b4271b091e56e",
+                "SubnetId": "subnet-04fc605130464da97"
+             }
+          ],
+          "Entries": [
+             {
+                "CidrBlock": "0.0.0.0/0",
+                "Egress": true,
+                "Protocol": "-1",
+                "RuleAction": "allow",
+                "RuleNumber": 100
+             },
+             {
+                "CidrBlock": "0.0.0.0/0",
+                "Egress": true,
+                "Protocol": "-1",
+                "RuleAction": "deny",
+                "RuleNumber": 32767
+             },
+             {
+                "CidrBlock": "0.0.0.0/0",
+                "Egress": false,
+                "Protocol": "-1",
+                "RuleAction": "allow",
+                "RuleNumber": 100
+             },
+             {
+                "CidrBlock": "0.0.0.0/0",
+                "Egress": false,
+                "Protocol": "-1",
+                "RuleAction": "deny",
+                "RuleNumber": 32767
+             }
+          ],
+          "IsDefault": true,
+          "NetworkAclId": "acl-0b93b4271b091e56e",
+          "Tags": [],
+          "VpcId": "vpc-07c41a395ef34a994",
+          "OwnerId": "767404772322"
+       }
+    ],
+    "ResponseMetadata": {
+       "RequestId": "83bc6935-1480-45de-bec6-7f75639ffc2d",
+       "HTTPStatusCode": 200,
+       "HTTPHeaders": {
+          "x-amzn-requestid": "83bc6935-1480-45de-bec6-7f75639ffc2d",
+          "cache-control": "no-cache, no-store",
+          "strict-transport-security": "max-age=31536000; includeSubDomains",
+          "vary": "accept-encoding",
+          "content-type": "text/xml;charset=UTF-8",
+          "content-length": "3444",
+          "date": "Wed, 20 Apr 2022 09:47:59 GMT",
+          "server": "AmazonEC2"
+       },
+       "RetryAttempts": 0
+    }
+ }

@@ -1,0 +1,45 @@
+{
+    "NatGateways": [
+       {
+          "CreateTime": "2021-11-30 15:19:24+00:00",
+          "NatGatewayAddresses": [
+             {
+                "AllocationId": "eipalloc-040778961053066d4",
+                "NetworkInterfaceId": "eni-044b627a8b3603e55",
+                "PrivateIp": "10.10.1.123",
+                "PublicIp": "54.180.172.33"
+             }
+          ],
+          "NatGatewayId": "nat-08d7df1898dad5a0d",
+          "State": "available",
+          "SubnetId": "subnet-051809d7488bb2545",
+          "VpcId": "vpc-07c41a395ef34a994",
+          "Tags": [
+             {
+                "Key": "Project",
+                "Value": "msa_maker"
+             },
+             {
+                "Key": "Name",
+                "Value": "msa_maker-test-apne2-vpc-ap-northeast-2a"
+             }
+          ],
+          "ConnectivityType": "public"
+       }
+    ],
+    "ResponseMetadata": {
+       "RequestId": "0b56e2af-8790-47f9-a298-0c196039189d",
+       "HTTPStatusCode": 200,
+       "HTTPHeaders": {
+          "x-amzn-requestid": "0b56e2af-8790-47f9-a298-0c196039189d",
+          "cache-control": "no-cache, no-store",
+          "strict-transport-security": "max-age=31536000; includeSubDomains",
+          "vary": "accept-encoding",
+          "content-type": "text/xml;charset=UTF-8",
+          "transfer-encoding": "chunked",
+          "date": "Wed, 20 Apr 2022 09:40:12 GMT",
+          "server": "AmazonEC2"
+       },
+       "RetryAttempts": 0
+    }
+ }

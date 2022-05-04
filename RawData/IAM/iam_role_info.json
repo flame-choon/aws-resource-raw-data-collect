@@ -1,0 +1,38 @@
+{
+    "Role": {
+       "Path": "/service-role/",
+       "RoleName": "AmazonRedshift-CommandsAccessRole-20220405T160628",
+       "RoleId": "AROA3FLHDRPRJU3I367UR",
+       "Arn": "arn:aws:iam::767404772322:role/service-role/AmazonRedshift-CommandsAccessRole-20220405T160628", 
+       "CreateDate": "2022-04-05 07:06:29+00:00",
+       "AssumeRolePolicyDocument": {
+          "Version": "2012-10-17",
+          "Statement": [
+             {
+                "Effect": "Allow",
+                "Principal": {
+                   "Service": [
+                      "redshift-serverless.amazonaws.com",
+                      "sagemaker.amazonaws.com",
+                      "redshift.amazonaws.com"
+                   ]
+                },
+                "Action": "sts:AssumeRole"
+             }
+          ]
+       },
+       "MaxSessionDuration": 3600,
+       "RoleLastUsed": {}
+    },
+    "ResponseMetadata": {
+       "RequestId": "416e2e0d-8098-4661-bda6-3ba6fbf0c7e0",
+       "HTTPStatusCode": 200,
+       "HTTPHeaders": {
+          "x-amzn-requestid": "416e2e0d-8098-4661-bda6-3ba6fbf0c7e0",
+          "content-type": "text/xml",
+          "content-length": "995",
+          "date": "Mon, 25 Apr 2022 09:26:55 GMT"
+       },
+       "RetryAttempts": 0
+    }
+ }

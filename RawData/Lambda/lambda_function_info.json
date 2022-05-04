@@ -1,0 +1,42 @@
+{
+    "ResponseMetadata": {
+       "RequestId": "f8c14218-7450-4692-89ae-8a8e51292887",
+       "HTTPStatusCode": 200,
+       "HTTPHeaders": {
+          "date": "Thu, 21 Apr 2022 04:14:38 GMT",
+          "content-type": "application/json",
+          "content-length": "2695",
+          "connection": "keep-alive",
+          "x-amzn-requestid": "f8c14218-7450-4692-89ae-8a8e51292887"
+       },
+       "RetryAttempts": 0
+    },
+    "Configuration": {
+       "FunctionName": "ec2_start_8_50am",
+       "FunctionArn": "arn:aws:lambda:ap-northeast-2:767404772322:function:ec2_start_8_50am",
+       "Runtime": "python3.9",
+       "Role": "arn:aws:iam::767404772322:role/lambda_auto_start_role",
+       "Handler": "lambda_function.lambda_handler",
+       "CodeSize": 636,
+       "Description": "",
+       "Timeout": 63,
+       "MemorySize": 128,
+       "LastModified": "2022-03-05T08:32:28.983+0000",
+       "CodeSha256": "1IqUFlzzSl5LLmr1nHnAEFnbVBH6UmPtGAFXz3zMWlI=",
+       "Version": "$LATEST",
+       "TracingConfig": {
+          "Mode": "PassThrough"
+       },
+       "RevisionId": "948449bf-96c0-4cf3-b5fa-e8ab83f11c4e",
+       "State": "Active",
+       "LastUpdateStatus": "Successful",
+       "PackageType": "Zip",
+       "EphemeralStorage": {
+          "Size": 512
+       }
+    },
+    "Code": {
+       "RepositoryType": "S3",
+       "Location": "https://awslambda-ap-ne-2-tasks.s3.ap-northeast-2.amazonaws.com/snapshots/767404772322/ec2_start_8_50am-9f97f65d-3444-48b8-a8ea-33edcfead13f?versionId=gZ67Uav8clKtvqL7zj2ts8ej.xNNGysD&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEGsaDmFwLW5vcnRoZWFzdC0yIkYwRAIgA60IVgBNTznL9t%2FbJ4BFt0TW0sbNI6p1ee8%2BMd8XaJECIH90C4expecIR%2B9hC1ooNscMspydnUSc8lgCSR1PjYPbKoQECCQQAxoMMjUxOTMxODkzNjE2IgwVbwUBch2o3Mg8i74q4QPH8L6pO9315EjG4BEoP9H6fPNxv6KIx9zjlBHhtkwg3mh9%2FDx0eZC%2F7wiETtKzUx7J59t4QaBJH7ejLoShb0g3e%2BUEcjRkpOhi0qdG0Y9i0Sk55CQkYC7SXwyYzcdP%2FrNQun%2BUHeYip3fX6Tynwv3vgr7lF9%2B4oyvNJ%2BwZ4ONyUqEw3d4FZSt1HY4YrFgkVn8jf%2FeejE1EnhuNkxX3uaUg6ZvSB8H1Bfu7EIPdnwk6PJC6Ii73f9%2FB%2BcySRWuEXf1jFsF3n4pWz%2FxyLFP6rOw1XGYIL%2BXaAPlxpRlYSERbWG6E2XXw5le2XVFl%2F%2BbmbUGV62knUI%2BtmSVKRxstDt255vAUI2lJe%2BKfl4ELG5MCo%2F6n8dJlSFonFMoD45q5ynMMfXPAd64T%2FEfnQe2TJwUsdCQMD8yoccICLPH2YaYYTrP0MFJuJk9nfZDTJz%2B6uPVEW5dKI4z7aP%2FMV7bfiA7Emm4iyT4uxMSyLmiuwRomCKyr0sOQU1ZFIfR2b74tuZS7OIm%2BBKR8JC0SrjOESwjm7AHyNY61%2FaaktLGRq8m%2F%2BxxhVSPirmgZAKf2Tr9OGGw7807z4fbKyNakHcfSkk%2Fe0jblUknR1sRoZ5CKW8Mueh2s878JaX1pa0dhT%2B4Q6lLiMPmVg5MGOqYBkU47g6MGYk2f5jN1RWSgpapHayswXNxmZgyU7sF4GaaEMwSdmK2enhq%2Fv1BszhkhyCvywhlqbhj5Ho4saHd4Pl%2Fc9krx3zi1fp7HrWKajsCaV1BaukbZcxHOOdlMOXK5OjJwTckEY9dlQjDoyQcQpAOxO%2BWWhMVmSuax4it6UQCsB1%2F8NHXBCy%2F4SpuYa7M0XjGc%2B52gwNS3UDSLouxdzbHWx4MeyA%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220421T041438Z&X-Amz-SignedHeaders=host&X-Amz-Expires=600&X-Amz-Credential=ASIATVKCPT5YAMWPKDUC%2F20220421%2Fap-northeast-2%2Fs3%2Faws4_request&X-Amz-Signature=ee0c2780640b39e8f7194b70c501a5ebcbabe5f0fba0a0bc4f840fd5a470298f"
+    }
+ }

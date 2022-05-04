@@ -1,0 +1,177 @@
+{
+   "Reservations": [
+      {
+         "Groups": [],
+         "Instances": [
+            {
+               "AmiLaunchIndex": 0,
+               "ImageId": "ami-04876f29fd3a5e8ba",
+               "InstanceId": "i-000082730bdd2ec33",
+               "InstanceType": "m5.large",
+               "KeyName": "msa_maker-test-apne2-key",
+               "LaunchTime": "2022-04-27 23:50:22+00:00",
+               "Monitoring": {
+                  "State": "disabled"
+               },
+               "Placement": {
+                  "AvailabilityZone": "ap-northeast-2a",
+                  "GroupName": "",
+                  "Tenancy": "default"
+               },
+               "PrivateDnsName": "ip-10-10-1-28.ap-northeast-2.compute.internal",
+               "PrivateIpAddress": "10.10.1.28",
+               "ProductCodes": [],
+               "PublicDnsName": "ec2-3-34-175-135.ap-northeast-2.compute.amazonaws.com",
+               "PublicIpAddress": "3.34.175.135",
+               "State": {
+                  "Code": 16,
+                  "Name": "running"
+               },
+               "StateTransitionReason": "",
+               "SubnetId": "subnet-051809d7488bb2545",
+               "VpcId": "vpc-07c41a395ef34a994",
+               "Architecture": "x86_64",
+               "BlockDeviceMappings": [
+                  {
+                     "DeviceName": "/dev/sda1",
+                     "Ebs": {
+                        "AttachTime": "2021-11-30 15:19:26+00:00",
+                        "DeleteOnTermination": true,
+                        "Status": "attached",
+                        "VolumeId": "vol-0a648b3da7ba1290d"
+                     }
+                  }
+               ],
+               "ClientToken": "53C7C525-C7D9-4DB5-B62D-6D71AF08A088",
+               "EbsOptimized": true,
+               "EnaSupport": true,
+               "Hypervisor": "xen",
+               "IamInstanceProfile": {
+                  "Arn": "arn:aws:iam::767404772322:instance-profile/msa_maker-test--apne2-master-i98f",
+                  "Id": "AIPA3FLHDRPRG3TFHTGPX"
+               },
+               "NetworkInterfaces": [
+                  {
+                     "Association": {
+                        "IpOwnerId": "767404772322",
+                        "PublicDnsName": "ec2-3-34-175-135.ap-northeast-2.compute.amazonaws.com",
+                        "PublicIp": "3.34.175.135"
+                     },
+                     "Attachment": {
+                        "AttachTime": "2021-11-30 15:19:25+00:00",
+                        "AttachmentId": "eni-attach-086eddc62341d7895",
+                        "DeleteOnTermination": true,
+                        "DeviceIndex": 0,
+                        "Status": "attached",
+                        "NetworkCardIndex": 0
+                     },
+                     "Description": "",
+                     "Groups": [
+                        {
+                           "GroupName": "msa_maker-test-apne2-k8s-sg-20211130151913418800000003",
+                           "GroupId": "sg-04bd4502261b34826"
+                        }
+                     ],
+                     "Ipv6Addresses": [],
+                     "MacAddress": "02:41:0d:93:33:3e",
+                     "NetworkInterfaceId": "eni-02e0786318ba26407",
+                     "OwnerId": "767404772322",
+                     "PrivateDnsName": "ip-10-10-1-28.ap-northeast-2.compute.internal",
+                     "PrivateIpAddress": "10.10.1.28",
+                     "PrivateIpAddresses": [
+                        {
+                           "Association": {
+                              "IpOwnerId": "767404772322",
+                              "PublicDnsName": "ec2-3-34-175-135.ap-northeast-2.compute.amazonaws.com",
+                              "PublicIp": "3.34.175.135"
+                           },
+                           "Primary": true,
+                           "PrivateDnsName": "ip-10-10-1-28.ap-northeast-2.compute.internal",
+                           "PrivateIpAddress": "10.10.1.28"
+                        }
+                     ],
+                     "SourceDestCheck": true,
+                     "Status": "in-use",
+                     "SubnetId": "subnet-051809d7488bb2545",
+                     "VpcId": "vpc-07c41a395ef34a994",
+                     "InterfaceType": "interface"
+                  }
+               ],
+               "RootDeviceName": "/dev/sda1",
+               "RootDeviceType": "ebs",
+               "SecurityGroups": [
+                  {
+                     "GroupName": "msa_maker-test-apne2-k8s-sg-20211130151913418800000003",
+                     "GroupId": "sg-04bd4502261b34826"
+                  }
+               ],
+               "SourceDestCheck": true,
+               "Tags": [
+                  {
+                     "Key": "kubernetes.io/cluster/msa_maker",
+                     "Value": "shared"
+                  },
+                  {
+                     "Key": "Project",
+                     "Value": "msa_maker"
+                  },
+                  {
+                     "Key": "Name",
+                     "Value": "msa_maker-test-apne2-master"
+                  }
+               ],
+               "VirtualizationType": "hvm",
+               "CpuOptions": {
+                  "CoreCount": 1,
+                  "ThreadsPerCore": 2
+               },
+               "CapacityReservationSpecification": {
+                  "CapacityReservationPreference": "open"
+               },
+               "HibernationOptions": {
+                  "Configured": false
+               },
+               "MetadataOptions": {
+                  "State": "applied",
+                  "HttpTokens": "optional",
+                  "HttpPutResponseHopLimit": 1,
+                  "HttpEndpoint": "enabled",
+                  "HttpProtocolIpv6": "disabled",
+                  "InstanceMetadataTags": "disabled"
+               },
+               "EnclaveOptions": {
+                  "Enabled": false
+               },
+               "PlatformDetails": "Linux/UNIX",
+               "UsageOperation": "RunInstances",
+               "UsageOperationUpdateTime": "2021-11-30 15:19:25+00:00",
+               "PrivateDnsNameOptions": {
+                  "HostnameType": "ip-name",
+                  "EnableResourceNameDnsARecord": false,
+                  "EnableResourceNameDnsAAAARecord": false
+               },
+               "MaintenanceOptions": {
+                  "AutoRecovery": "default"
+               }
+            }
+         ],
+         "OwnerId": "767404772322",
+         "ReservationId": "r-017893a28b7b42207"
+      }
+   ],
+   "ResponseMetadata": {
+      "RequestId": "0c6d6d2e-44e9-49e0-a0ce-ce0d479ff268",
+      "HTTPStatusCode": 200,
+      "HTTPHeaders": {
+         "x-amzn-requestid": "0c6d6d2e-44e9-49e0-a0ce-ce0d479ff268",
+         "cache-control": "no-cache, no-store",
+         "strict-transport-security": "max-age=31536000; includeSubDomains",
+         "vary": "accept-encoding",
+         "content-type": "text/xml;charset=UTF-8",
+         "transfer-encoding": "chunked",
+         "date": "Thu, 28 Apr 2022 01:07:56 GMT",
+         "server": "AmazonEC2"
+      },
+      "RetryAttempts": 0
+   }
+}

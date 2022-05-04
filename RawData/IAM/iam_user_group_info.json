@@ -1,0 +1,148 @@
+{
+    "Group": {
+       "Path": "/",
+       "GroupName": "Admin",
+       "GroupId": "AGPA3FLHDRPRFSR7FGOD2",
+       "Arn": "arn:aws:iam::767404772322:group/Admin",
+       "CreateDate": "2021-11-30 01:27:17+00:00"
+    },
+    "Users": [
+       {
+          "Path": "/",
+          "UserName": "sangpil.lee@bespinglobal.com",
+          "UserId": "AIDA3FLHDRPRAT6N4RRPE",
+          "Arn": "arn:aws:iam::767404772322:user/sangpil.lee@bespinglobal.com",
+          "CreateDate": "2022-02-15 01:14:11+00:00",
+          "PasswordLastUsed": "2022-04-20 07:56:06+00:00"
+       },
+       {
+          "Path": "/",
+          "UserName": "hyunbok.lee@bespinglobal.com",
+          "UserId": "AIDA3FLHDRPRCJHG7JZSX",
+          "Arn": "arn:aws:iam::767404772322:user/hyunbok.lee@bespinglobal.com",
+          "CreateDate": "2021-11-30 01:35:31+00:00",
+          "PasswordLastUsed": "2022-04-25 01:36:51+00:00"
+       },
+       {
+          "Path": "/",
+          "UserName": "kwangjin.hwang@bespinglobal.com",
+          "UserId": "AIDA3FLHDRPRDBFYRQ73J",
+          "Arn": "arn:aws:iam::767404772322:user/kwangjin.hwang@bespinglobal.com",
+          "CreateDate": "2022-04-01 01:03:11+00:00",
+          "PasswordLastUsed": "2022-04-25 01:03:28+00:00"
+       },
+       {
+          "Path": "/",
+          "UserName": "changho.woo@bespinglobal.com",
+          "UserId": "AIDA3FLHDRPRE2KJ5L5IM",
+          "Arn": "arn:aws:iam::767404772322:user/changho.woo@bespinglobal.com",
+          "CreateDate": "2022-02-28 01:45:07+00:00",
+          "PasswordLastUsed": "2022-03-25 01:28:26+00:00"
+       },
+       {
+          "Path": "/",
+          "UserName": "kwangjin-for-cli",
+          "UserId": "AIDA3FLHDRPRGAFSL53KH",
+          "Arn": "arn:aws:iam::767404772322:user/kwangjin-for-cli",
+          "CreateDate": "2022-04-02 14:12:32+00:00"
+       },
+       {
+          "Path": "/",
+          "UserName": "jaehyun.yang@bespinglobal.com",
+          "UserId": "AIDA3FLHDRPRGE4DW5ERH",
+          "Arn": "arn:aws:iam::767404772322:user/jaehyun.yang@bespinglobal.com",
+          "CreateDate": "2021-11-30 01:39:44+00:00",
+          "PasswordLastUsed": "2022-04-21 04:17:29+00:00"
+       },
+       {
+          "Path": "/",
+          "UserName": "yeonsoo.koo@bespinglobal.com",
+          "UserId": "AIDA3FLHDRPRHIYH3LCSJ",
+          "Arn": "arn:aws:iam::767404772322:user/yeonsoo.koo@bespinglobal.com",
+          "CreateDate": "2021-11-30 01:39:44+00:00",
+          "PasswordLastUsed": "2022-04-18 01:38:48+00:00"
+       },
+       {
+          "Path": "/",
+          "UserName": "ethan.lee@bespinglobal.com",
+          "UserId": "AIDA3FLHDRPRIDAJAPU37",
+          "Arn": "arn:aws:iam::767404772322:user/ethan.lee@bespinglobal.com",
+          "CreateDate": "2021-12-10 00:59:32+00:00",
+          "PasswordLastUsed": "2022-02-16 00:08:58+00:00"
+       },
+       {
+          "Path": "/",
+          "UserName": "junho.oh@bespinglobal.com",
+          "UserId": "AIDA3FLHDRPRKFOEYE3L6",
+          "Arn": "arn:aws:iam::767404772322:user/junho.oh@bespinglobal.com",
+          "CreateDate": "2021-11-30 01:29:35+00:00",
+          "PasswordLastUsed": "2021-12-20 08:40:33+00:00"
+       },
+       {
+          "Path": "/",
+          "UserName": "gyuho.song@bespinglobal.com",
+          "UserId": "AIDA3FLHDRPRLRDYMEM4N",
+          "Arn": "arn:aws:iam::767404772322:user/gyuho.song@bespinglobal.com",
+          "CreateDate": "2021-11-30 01:39:44+00:00",
+          "PasswordLastUsed": "2022-04-07 06:39:26+00:00"
+       },
+       {
+          "Path": "/",
+          "UserName": "tom.hong@bespinglobal.com",
+          "UserId": "AIDA3FLHDRPRMR6LFHSXT",
+          "Arn": "arn:aws:iam::767404772322:user/tom.hong@bespinglobal.com",
+          "CreateDate": "2021-11-30 01:35:31+00:00",
+          "PasswordLastUsed": "2022-04-05 02:13:02+00:00"
+       },
+       {
+          "Path": "/",
+          "UserName": "for-tunecloud-test",
+          "UserId": "AIDA3FLHDRPRMX2BESQ7P",
+          "Arn": "arn:aws:iam::767404772322:user/for-tunecloud-test",
+          "CreateDate": "2022-04-19 02:27:55+00:00"
+       },
+       {
+          "Path": "/",
+          "UserName": "seokjoon.kim@bespinglobal.com",
+          "UserId": "AIDA3FLHDRPRNIV7BHFC7",
+          "Arn": "arn:aws:iam::767404772322:user/seokjoon.kim@bespinglobal.com",
+          "CreateDate": "2022-04-21 08:11:54+00:00",
+          "PasswordLastUsed": "2022-04-22 11:42:50+00:00"
+       },
+       {
+          "Path": "/",
+          "UserName": "jaesung.ju@bespinglobal.com",
+          "UserId": "AIDA3FLHDRPRP4IFPRXIA",
+          "Arn": "arn:aws:iam::767404772322:user/jaesung.ju@bespinglobal.com",
+          "CreateDate": "2021-11-30 01:45:56+00:00",
+          "PasswordLastUsed": "2022-03-10 07:54:28+00:00"
+       },
+       {
+          "Path": "/",
+          "UserName": "eonha.lee@bespinglobal.com",
+          "UserId": "AIDA3FLHDRPRPU5CX5BFD",
+          "Arn": "arn:aws:iam::767404772322:user/eonha.lee@bespinglobal.com",
+          "CreateDate": "2021-11-30 01:39:44+00:00",
+          "PasswordLastUsed": "2022-04-25 04:13:38+00:00"
+       },
+       {
+          "Path": "/",
+          "UserName": "moogsoft",
+          "UserId": "AIDA3FLHDRPRPUEEX3BNG",
+          "Arn": "arn:aws:iam::767404772322:user/moogsoft",
+          "CreateDate": "2022-04-18 01:41:37+00:00"
+       }
+    ],
+    "IsTruncated": false,
+    "ResponseMetadata": {
+       "RequestId": "b08a4067-e64f-42fc-93a8-fa867b7b654d",
+       "HTTPStatusCode": 200,
+       "HTTPHeaders": {
+          "x-amzn-requestid": "b08a4067-e64f-42fc-93a8-fa867b7b654d",
+          "content-type": "text/xml",
+          "content-length": "5964",
+          "date": "Mon, 25 Apr 2022 09:16:24 GMT"
+       },
+       "RetryAttempts": 0
+    }
+ }

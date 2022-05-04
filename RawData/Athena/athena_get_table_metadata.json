@@ -1,0 +1,102 @@
+{
+    "TableMetadata": {
+       "Name": "kwangjin_data_lake",
+       "CreateTime": "2022-04-03 08:32:45+09:00",
+       "LastAccessTime": "2022-04-03 08:32:45+09:00",
+       "TableType": "EXTERNAL_TABLE",
+       "Columns": [
+          {
+             "Name": "market",
+             "Type": "string"
+          },
+          {
+             "Name": "candle_date_time_utc",
+             "Type": "string"
+          },
+          {
+             "Name": "candle_date_time_kst",
+             "Type": "string"
+          },
+          {
+             "Name": "opening_price",
+             "Type": "double"
+          },
+          {
+             "Name": "high_price",
+             "Type": "double"
+          },
+          {
+             "Name": "low_price",
+             "Type": "double"
+          },
+          {
+             "Name": "trade_price",
+             "Type": "double"
+          },
+          {
+             "Name": "timestamp",
+             "Type": "bigint"
+          },
+          {
+             "Name": "candle_acc_trade_price",
+             "Type": "double"
+          },
+          {
+             "Name": "candle_acc_trade_volume",
+             "Type": "double"
+          },
+          {
+             "Name": "unit",
+             "Type": "int"
+          }
+       ],
+       "PartitionKeys": [
+          {
+             "Name": "year",
+             "Type": "string"
+          },
+          {
+             "Name": "month",
+             "Type": "string"
+          },
+          {
+             "Name": "day",
+             "Type": "string"
+          },
+          {
+             "Name": "hour",
+             "Type": "string"
+          }
+       ],
+       "Parameters": {
+          "CrawlerSchemaDeserializerVersion": "1.0",
+          "CrawlerSchemaSerializerVersion": "1.0",
+          "UPDATED_BY_CRAWLER": "upbit-krwbtc-minute-data-crawler",
+          "averageRecordSize": "343",
+          "classification": "json",
+          "compressionType": "none",
+          "inputformat": "org.apache.hadoop.mapred.TextInputFormat",
+          "jsonPath": "$[*]",
+          "location": "s3://kwangjin-data-lake/",
+          "objectCount": "2160",
+          "outputformat": "org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat",
+          "recordCount": "129600",
+          "serde.param.paths": "candle_acc_trade_price,candle_acc_trade_volume,candle_date_time_kst,candle_date_time_utc,high_price,low_price,market,opening_price,timestamp,trade_price,unit",
+          "serde.serialization.lib": "org.openx.data.jsonserde.JsonSerDe",
+          "sizeKey": "44642234",
+          "typeOfData": "file"
+       }
+    },
+    "ResponseMetadata": {
+       "RequestId": "b02b6592-833f-4843-83fe-87b1c31a939e",
+       "HTTPStatusCode": 200,
+       "HTTPHeaders": {
+          "content-type": "application/x-amz-json-1.1",
+          "date": "Mon, 25 Apr 2022 10:37:31 GMT",
+          "x-amzn-requestid": "b02b6592-833f-4843-83fe-87b1c31a939e",
+          "content-length": "1487",
+          "connection": "keep-alive"
+       },
+       "RetryAttempts": 0
+    }
+ }

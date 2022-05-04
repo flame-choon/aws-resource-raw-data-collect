@@ -1,0 +1,75 @@
+{
+    "ResponseMetadata": {
+       "RequestId": "c677f5cb-f7b0-4205-9b95-bf2f12028708",
+       "HTTPStatusCode": 200,
+       "HTTPHeaders": {
+          "date": "Thu, 21 Apr 2022 04:36:39 GMT",
+          "content-type": "application/json",
+          "content-length": "2656",
+          "connection": "keep-alive",
+          "x-amzn-requestid": "c677f5cb-f7b0-4205-9b95-bf2f12028708",
+          "access-control-allow-origin": "*",
+          "access-control-allow-headers": "*,Authorization,Date,X-Amz-Date,X-Amz-Security-Token,X-Amz-Target,content-type,x-amz-content-sha256,x-amz-user-agent,x-amzn-platform-id,x-amzn-trace-id",
+          "x-amz-apigw-id": "Q6fVtGDHoE0Fb-Q=",
+          "access-control-allow-methods": "GET,HEAD,PUT,POST,DELETE,OPTIONS",
+          "access-control-expose-headers": "x-amzn-errortype,x-amzn-errormessage,x-amzn-trace-id,x-amzn-requestid,x-amz-apigw-id,date",
+          "x-amzn-trace-id": "Root=1-6260df57-4680246b12453a2a4eb65bad"
+       },
+       "RetryAttempts": 0
+    },
+    "cluster": {
+       "name": "secho-gran-xi-cluster",
+       "arn": "arn:aws:eks:ap-northeast-2:767404772322:cluster/secho-gran-xi-cluster",
+       "createdAt": "2022-04-21 13:18:17.531000+09:00",
+       "version": "1.21",
+       "endpoint": "https://02BFB2D80D232FC676F2D71660BDC68B.gr7.ap-northeast-2.eks.amazonaws.com",
+       "roleArn": "arn:aws:iam::767404772322:role/myAmazonEKSClusterRole",
+       "resourcesVpcConfig": {
+          "subnetIds": [
+             "subnet-07b07a2a2a35f37ca",
+             "subnet-00d7e40fc8eecb1d8",
+             "subnet-05ad42f8c27c16f5a",
+             "subnet-0df1146e8427e11a4",
+             "subnet-09702fcb437e2a18d",
+             "subnet-08816e9dc67ac1d9e"
+          ],
+          "securityGroupIds": [],
+          "clusterSecurityGroupId": "sg-0e5958d714adb3af9",
+          "vpcId": "vpc-02630b86af4d67bbf",
+          "endpointPublicAccess": true,
+          "endpointPrivateAccess": false,
+          "publicAccessCidrs": [
+             "0.0.0.0/0"
+          ]
+       },
+       "kubernetesNetworkConfig": {
+          "serviceIpv4Cidr": "10.100.0.0/16",
+          "ipFamily": "ipv4"
+       },
+       "logging": {
+          "clusterLogging": [
+             {
+                "types": [
+                   "api",
+                   "audit",
+                   "authenticator",
+                   "controllerManager",
+                   "scheduler"
+                ],
+                "enabled": true
+             }
+          ]
+       },
+       "identity": {
+          "oidc": {
+             "issuer": "https://oidc.eks.ap-northeast-2.amazonaws.com/id/02BFB2D80D232FC676F2D71660BDC68B"
+          }
+       },
+       "status": "ACTIVE",
+       "certificateAuthority": {
+          "data": "LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUM1ekNDQWMrZ0F3SUJBZ0lCQURBTkJna3Foa2lHOXcwQkFRc0ZBREFWTVJNd0VRWURWUVFERXdwcmRXSmwKY201bGRHVnpNQjRYRFRJeU1EUXlNVEEwTWpNeU1Gb1hEVE15TURReE9EQTBNak15TUZvd0ZURVRNQkVHQTFVRQpBeE1LYTNWaVpYSnVaWFJsY3pDQ0FTSXdEUVlKS29aSWh2Y05BUUVCQlFBRGdnRVBBRENDQVFvQ2dnRUJBT1NoCmlYTGhZbE9WV2FwcGpUcSs4SWZ3YmU0MlpRZDNXQ2dKQ2RmcmxxK3REdm5tZVY3amdCVE00cXhQWS9lV085K1IKQ1Z0VXJ2eE5VaVB0Qkh6Nk5rWUJGTGJNMnRDL3JUUVpBaVBWcU1vY1hkSm1qdk9kOXhnSzRsWlIzbWdYdWtqOQpnU1JUYjNKRnVJTHNwVEZrWUR3M0FFQjg1a1ZVSGo4dHBRSWRYZnd0M3o1dFdNeFllVklzMG5MOVlSVWtobFVUCnh4SDZFdHpIcXk2bllaWnJFakhCTnhzK0tobmJtTGFPT0FjZzVWS3RyanNwQ3NmQUttL0dNVlNzb3dnMTZOL3oKT3l0NFNURGlYQ2hOVEdqUmkrQjE0UmQ2a2JnRDRwZjY1eXlxOEhhSVo2MDBoamVuL3lSWXBJaWJzVExROG5JMwplODVlbHZrcm9GL2hWVWQwbE44Q0F3RUFBYU5DTUVBd0RnWURWUjBQQVFIL0JBUURBZ0trTUE4R0ExVWRFd0VCCi93UUZNQU1CQWY4d0hRWURWUjBPQkJZRUZMMm80V1djcWVGMUk3UUs5OFdLcFpCcUhBU2RNQTBHQ1NxR1NJYjMKRFFFQkN3VUFBNElCQVFDOVY5RTgyTVgvemF2SnJZV3V0NDJXKzBwMHdpdkozV3c4dUlYU0k3bjlLU1drcXAybQpBNWM5Um55N2VmNUxtQmlEUDRqQXhUcVI3OG1MQWZNTE1zWjh5ZGc2ZG1NZWpRLytyM29VUUxaU2NMNFlCeThFCk9aVlV1eFA2MEpTazl4SUpJVkdRVDJka1V4RDAwY2t3LzJKVWR3NlAzUngweFBhSHF1dW9VUUpJaXdVMnBCTTQKc2NWbWxrT2JtWHFJY0lwcmxGNy9DeU1pU09GcnZEdmlLZFBuQnV3ZTQ1bW94NG5BemhxeTVBNzFPR0cwWnpwYQpGNldtMU5tRTJBejIvazl5UytONHEvQjNsQWlYSGpvdGQrMmtRbkk3bjdZR2tEeFZhQ2tZUjJsWFZJR0FtQmhjCkpRSktnRUxucWE5cnVvSUtwSitKYk1Odit6MFJtanNNcm1mSwotLS0tLUVORCBDRVJUSUZJQ0FURS0tLS0tCg=="
+       },
+       "platformVersion": "eks.6",
+       "tags": {}
+    }
+ }

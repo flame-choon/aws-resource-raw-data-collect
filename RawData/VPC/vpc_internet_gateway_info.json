@@ -1,0 +1,38 @@
+{
+    "InternetGateways": [
+       {
+          "Attachments": [
+             {
+                "State": "available",
+                "VpcId": "vpc-07c41a395ef34a994"
+             }
+          ],
+          "InternetGatewayId": "igw-06ba57ec5520e6baf",
+          "OwnerId": "767404772322",
+          "Tags": [
+             {
+                "Key": "Name",
+                "Value": "msa_maker-test-apne2-vpc"
+             },
+             {
+                "Key": "Project",
+                "Value": "msa_maker"
+             }
+          ]
+       }
+    ],
+    "ResponseMetadata": {
+       "RequestId": "96d07e46-0ae4-4928-b15b-ef8fc05544af",
+       "HTTPStatusCode": 200,
+       "HTTPHeaders": {
+          "x-amzn-requestid": "96d07e46-0ae4-4928-b15b-ef8fc05544af",
+          "cache-control": "no-cache, no-store",
+          "strict-transport-security": "max-age=31536000; includeSubDomains",
+          "content-type": "text/xml;charset=UTF-8",
+          "content-length": "944",
+          "date": "Wed, 20 Apr 2022 09:34:14 GMT",
+          "server": "AmazonEC2"
+       },
+       "RetryAttempts": 0
+    }
+ }

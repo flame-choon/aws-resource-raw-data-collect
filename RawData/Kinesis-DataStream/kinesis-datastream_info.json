@@ -1,0 +1,73 @@
+{
+    "StreamDescription": {
+       "StreamName": "kinesis-data-stream",
+       "StreamARN": "arn:aws:kinesis:ap-northeast-2:767404772322:stream/kinesis-data-stream",
+       "StreamStatus": "ACTIVE",
+       "StreamModeDetails": {
+          "StreamMode": "ON_DEMAND"
+       },
+       "Shards": [
+          {
+             "ShardId": "shardId-000000000000",
+             "HashKeyRange": {
+                "StartingHashKey": "0",
+                "EndingHashKey": "85070591730234615865843651857942052863"
+             },
+             "SequenceNumberRange": {
+                "StartingSequenceNumber": "49628909535705937212440450636575117939756652741275942914"
+             }
+          },
+          {
+             "ShardId": "shardId-000000000001",
+             "HashKeyRange": {
+                "StartingHashKey": "85070591730234615865843651857942052864",
+                "EndingHashKey": "170141183460469231731687303715884105727"
+             },
+             "SequenceNumberRange": {
+                "StartingSequenceNumber": "49628909535728237957638981259716653658029301102781923346"
+             }
+          },
+          {
+             "ShardId": "shardId-000000000002",
+             "HashKeyRange": {
+                "StartingHashKey": "170141183460469231731687303715884105728",
+                "EndingHashKey": "255211775190703847597530955573826158591"
+             },
+             "SequenceNumberRange": {
+                "StartingSequenceNumber": "49628909535750538702837511882858189376301949464287903778"
+             }
+          },
+          {
+             "ShardId": "shardId-000000000003",
+             "HashKeyRange": {
+                "StartingHashKey": "255211775190703847597530955573826158592",
+                "EndingHashKey": "340282366920938463463374607431768211455"
+             },
+             "SequenceNumberRange": {
+                "StartingSequenceNumber": "49628909535772839448036042505999725094574597825793884210"
+             }
+          }
+       ],
+       "HasMoreShards": false,
+       "RetentionPeriodHours": 24,
+       "StreamCreationTimestamp": "2022-04-25 17:39:28+09:00",
+       "EnhancedMonitoring": [
+          {
+             "ShardLevelMetrics": []
+          }
+       ],
+       "EncryptionType": "NONE"
+    },
+    "ResponseMetadata": {
+       "RequestId": "cf88be97-56fd-f27d-9568-dd896e8e5446",
+       "HTTPStatusCode": 200,
+       "HTTPHeaders": {
+          "x-amzn-requestid": "cf88be97-56fd-f27d-9568-dd896e8e5446",
+          "x-amz-id-2": "XRUxDH1neeJVgD/6rBTgDSACN9soIiDY+jCKobUaJ1vZ/gHc13wvGGoPek9DvSbtlNCbrCUo4Lva3qTDR+iIzfElCFqEpVMw",
+          "date": "Mon, 25 Apr 2022 08:50:38 GMT",
+          "content-type": "application/x-amz-json-1.1",
+          "content-length": "1457"
+       },
+       "RetryAttempts": 0
+    }
+ }

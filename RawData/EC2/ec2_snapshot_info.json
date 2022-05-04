@@ -1,0 +1,29 @@
+{
+   "Snapshots": [
+      {
+         "Description": "",
+         "Encrypted": false,
+         "OwnerId": "099720109477",
+         "Progress": "100%",
+         "SnapshotId": "snap-050dcc44b388532b6",
+         "StartTime": "2021-05-01 00:51:46.511000+00:00",
+         "State": "completed",
+         "VolumeId": "vol-ffffffff",
+         "VolumeSize": 8
+      }
+   ],
+   "ResponseMetadata": {
+      "RequestId": "b5dc9250-4638-4180-8361-00dfbb3ca11c",
+      "HTTPStatusCode": 200,
+      "HTTPHeaders": {
+         "x-amzn-requestid": "b5dc9250-4638-4180-8361-00dfbb3ca11c",
+         "cache-control": "no-cache, no-store",
+         "strict-transport-security": "max-age=31536000; includeSubDomains",
+         "content-type": "text/xml;charset=UTF-8",
+         "content-length": "670",
+         "date": "Thu, 28 Apr 2022 01:17:42 GMT",
+         "server": "AmazonEC2"
+      },
+      "RetryAttempts": 0
+   }
+}

@@ -1,0 +1,21 @@
+{
+    "User": {
+       "Path": "/",
+       "UserName": "kwangjin.hwang@bespinglobal.com",
+       "UserId": "AIDA3FLHDRPRDBFYRQ73J",
+       "Arn": "arn:aws:iam::767404772322:user/kwangjin.hwang@bespinglobal.com",
+       "CreateDate": "2022-04-01 01:03:11+00:00",
+       "PasswordLastUsed": "2022-04-25 01:03:28+00:00"
+    },
+    "ResponseMetadata": {
+       "RequestId": "62f76b0c-4724-478c-b512-43e8e0dcd7f5",
+       "HTTPStatusCode": 200,
+       "HTTPHeaders": {
+          "x-amzn-requestid": "62f76b0c-4724-478c-b512-43e8e0dcd7f5",
+          "content-type": "text/xml",
+          "content-length": "575",
+          "date": "Mon, 25 Apr 2022 09:12:54 GMT"
+       },
+       "RetryAttempts": 0
+    }
+ }

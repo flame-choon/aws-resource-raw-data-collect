@@ -1,0 +1,46 @@
+{
+    "Vpcs": [
+       {
+          "CidrBlock": "10.10.0.0/16",
+          "DhcpOptionsId": "dopt-0809f32d8c40d7216",
+          "State": "available",
+          "VpcId": "vpc-07c41a395ef34a994",
+          "OwnerId": "767404772322",
+          "InstanceTenancy": "default",
+          "CidrBlockAssociationSet": [
+             {
+                "AssociationId": "vpc-cidr-assoc-09c34649e71f8a01d",
+                "CidrBlock": "10.10.0.0/16",
+                "CidrBlockState": {
+                   "State": "associated"
+                }
+             }
+          ],
+          "IsDefault": false,
+          "Tags": [
+             {
+                "Key": "Project",
+                "Value": "msa_maker"
+             },
+             {
+                "Key": "Name",
+                "Value": "msa_maker-test-apne2-vpc"
+             }
+          ]
+       }
+    ],
+    "ResponseMetadata": {
+       "RequestId": "fe5a67f6-9058-4b6d-add0-b2e4d3004cca",
+       "HTTPStatusCode": 200,
+       "HTTPHeaders": {
+          "x-amzn-requestid": "fe5a67f6-9058-4b6d-add0-b2e4d3004cca",
+          "cache-control": "no-cache, no-store",
+          "strict-transport-security": "max-age=31536000; includeSubDomains",
+          "content-type": "text/xml;charset=UTF-8",
+          "content-length": "1302",
+          "date": "Wed, 20 Apr 2022 09:28:09 GMT",
+          "server": "AmazonEC2"
+       },
+       "RetryAttempts": 0
+    }
+ }

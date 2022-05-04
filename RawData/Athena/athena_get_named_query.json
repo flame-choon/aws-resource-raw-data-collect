@@ -1,0 +1,21 @@
+{
+    "NamedQuery": {
+       "Name": "count-query",
+       "Database": "upbit-krwbtc-minute-data-database",
+       "QueryString": "select market, COUNT(*) count\nfrom kwangjin_data_lake\nGROUP BY market",
+       "NamedQueryId": "73d58720-0eee-4be5-9ebb-72ae4b369efa",
+       "WorkGroup": "primary"
+    },
+    "ResponseMetadata": {
+       "RequestId": "b196dd58-4347-4513-8fbd-57b35b4b7be0",
+       "HTTPStatusCode": 200,
+       "HTTPHeaders": {
+          "content-type": "application/x-amz-json-1.1",
+          "date": "Mon, 25 Apr 2022 10:30:44 GMT",
+          "x-amzn-requestid": "b196dd58-4347-4513-8fbd-57b35b4b7be0",
+          "content-length": "248",
+          "connection": "keep-alive"
+       },
+       "RetryAttempts": 0
+    }
+ }

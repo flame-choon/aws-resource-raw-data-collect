@@ -1,0 +1,22 @@
+{
+    "ResponseMetadata": {
+       "RequestId": "APYRFHMFPY3KWPA6",
+       "HostId": "hulXMXz1oVeZX37z5OUB1RCf017OSgz/wo1M3Yc9rgfzPwchooiQ3jSZqnrFwO9cLKwcCKQOND0=",
+       "HTTPStatusCode": 200,
+       "HTTPHeaders": {
+          "x-amz-id-2": "hulXMXz1oVeZX37z5OUB1RCf017OSgz/wo1M3Yc9rgfzPwchooiQ3jSZqnrFwO9cLKwcCKQOND0=",
+          "x-amz-request-id": "APYRFHMFPY3KWPA6",
+          "date": "Mon, 25 Apr 2022 06:33:56 GMT",
+          "server": "AmazonS3",
+          "content-length": "240"
+       },
+       "RetryAttempts": 0
+    },
+    "AnalyticsConfiguration": {
+       "Id": "test-configuration",
+       "Filter": {
+          "Prefix": "test"
+       },
+       "StorageClassAnalysis": {}
+    }
+ }

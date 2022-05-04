@@ -1,0 +1,341 @@
+{
+    "SecurityGroups": [
+       {
+          "Description": "Security group for k8s usage with EC2 instance",
+          "GroupName": "msa_maker-test-apne2-k8s-sg-20211130151913418800000003",
+          "IpPermissions": [
+             {
+                "FromPort": 30000,
+                "IpProtocol": "tcp",
+                "IpRanges": [
+                   {
+                      "CidrIp": "0.0.0.0/0",
+                      "Description": "NodePort"
+                   }
+                ],
+                "Ipv6Ranges": [],
+                "PrefixListIds": [],
+                "ToPort": 32767,
+                "UserIdGroupPairs": []
+             },
+             {
+                "FromPort": 5432,
+                "IpProtocol": "tcp",
+                "IpRanges": [],
+                "Ipv6Ranges": [],
+                "PrefixListIds": [],
+                "ToPort": 5432,
+                "UserIdGroupPairs": [
+                   {
+                      "GroupId": "sg-0b1b3a91f03d8332e",
+                      "UserId": "767404772322"
+                   }
+                ]
+             },
+             {
+                "FromPort": 6443,
+                "IpProtocol": "tcp",
+                "IpRanges": [
+                   {
+                      "CidrIp": "58.151.93.9/32",
+                      "Description": "jaehyun-test"
+                   }
+                ],
+                "Ipv6Ranges": [],
+                "PrefixListIds": [],
+                "ToPort": 6443,
+                "UserIdGroupPairs": []
+             },
+             {
+                "IpProtocol": "-1",
+                "IpRanges": [],
+                "Ipv6Ranges": [],
+                "PrefixListIds": [],
+                "UserIdGroupPairs": [
+                   {
+                      "GroupId": "sg-00b0053a5910d0479",
+                      "UserId": "767404772322"
+                   },
+                   {
+                      "GroupId": "sg-031048b78be128d89",
+                      "UserId": "767404772322"
+                   },
+                   {
+                      "GroupId": "sg-04a4437e2678536e7",
+                      "UserId": "767404772322"
+                   },
+                   {
+                      "Description": "access k8s",
+                      "GroupId": "sg-04bd4502261b34826",
+                      "UserId": "767404772322"
+                   },
+                   {
+                      "GroupId": "sg-04f7ca9942a8d5775",
+                      "UserId": "767404772322"
+                   },
+                   {
+                      "GroupId": "sg-06f5ebda81beeaf03",
+                      "UserId": "767404772322"
+                   },
+                   {
+                      "GroupId": "sg-096474027801ee7a9",
+                      "UserId": "767404772322"
+                   },
+                   {
+                      "GroupId": "sg-0d4ee77f51ffb4a89",
+                      "UserId": "767404772322"
+                   }
+                ]
+             },
+             {
+                "FromPort": 22,
+                "IpProtocol": "tcp",
+                "IpRanges": [
+                   {
+                      "CidrIp": "58.151.93.0/24",
+                      "Description": "SSH"
+                   },
+                   {
+                      "CidrIp": "115.88.25.2/32",
+                      "Description": "bespin_16F"
+                   },
+                   {
+                      "CidrIp": "39.7.28.162/32",
+                      "Description": "lhb access"
+                   }
+                ],
+                "Ipv6Ranges": [],
+                "PrefixListIds": [],
+                "ToPort": 22,
+                "UserIdGroupPairs": []
+             }
+          ],
+          "OwnerId": "767404772322",
+          "GroupId": "sg-04bd4502261b34826",
+          "IpPermissionsEgress": [
+             {
+                "FromPort": 80,
+                "IpProtocol": "tcp",
+                "IpRanges": [
+                   {
+                      "CidrIp": "0.0.0.0/0",
+                      "Description": "HTTP"
+                   }
+                ],
+                "Ipv6Ranges": [
+                   {
+                      "CidrIpv6": "::/0",
+                      "Description": "HTTP"
+                   }
+                ],
+                "PrefixListIds": [],
+                "ToPort": 80,
+                "UserIdGroupPairs": []
+             },
+             {
+                "FromPort": 50000,
+                "IpProtocol": "tcp",
+                "IpRanges": [
+                   {
+                      "CidrIp": "0.0.0.0/0",
+                      "Description": "hazelcast-test"
+                   }
+                ],
+                "Ipv6Ranges": [],
+                "PrefixListIds": [],
+                "ToPort": 55000,
+                "UserIdGroupPairs": []
+             },
+             {
+                "FromPort": 9092,
+                "IpProtocol": "tcp",
+                "IpRanges": [
+                   {
+                      "CidrIp": "0.0.0.0/0",
+                      "Description": "kafka"
+                   }
+                ],
+                "Ipv6Ranges": [],
+                "PrefixListIds": [],
+                "ToPort": 9094,
+                "UserIdGroupPairs": []
+             },
+             {
+                "FromPort": 6443,
+                "IpProtocol": "tcp",
+                "IpRanges": [
+                   {
+                      "CidrIp": "58.151.93.9/32",
+                      "Description": "jaehyun-test"
+                   }
+                ],
+                "Ipv6Ranges": [],
+                "PrefixListIds": [],
+                "ToPort": 6443,
+                "UserIdGroupPairs": []
+             },
+             {
+                "FromPort": 6379,
+                "IpProtocol": "tcp",
+                "IpRanges": [
+                   {
+                      "CidrIp": "0.0.0.0/0",
+                      "Description": "redis-port"
+                   }
+                ],
+                "Ipv6Ranges": [],
+                "PrefixListIds": [],
+                "ToPort": 6385,
+                "UserIdGroupPairs": []
+             },
+             {
+                "FromPort": 5432,
+                "IpProtocol": "tcp",
+                "IpRanges": [
+                   {
+                      "CidrIp": "0.0.0.0/0",
+                      "Description": "postgresql"
+                   }
+                ],
+                "Ipv6Ranges": [],
+                "PrefixListIds": [],
+                "ToPort": 5432,
+                "UserIdGroupPairs": []
+             },
+             {
+                "IpProtocol": "-1",
+                "IpRanges": [],
+                "Ipv6Ranges": [],
+                "PrefixListIds": [],
+                "UserIdGroupPairs": [
+                   {
+                      "Description": "out k8s",
+                      "GroupId": "sg-04bd4502261b34826",
+                      "UserId": "767404772322"
+                   }
+                ]
+             },
+             {
+                "FromPort": 2181,
+                "IpProtocol": "tcp",
+                "IpRanges": [
+                   {
+                      "CidrIp": "0.0.0.0/0",
+                      "Description": "zookeeper"
+                   }
+                ],
+                "Ipv6Ranges": [],
+                "PrefixListIds": [],
+                "ToPort": 2184,
+                "UserIdGroupPairs": []
+             },
+             {
+                "FromPort": 22,
+                "IpProtocol": "tcp",
+                "IpRanges": [
+                   {
+                      "CidrIp": "0.0.0.0/0",
+                      "Description": "SSH"
+                   }
+                ],
+                "Ipv6Ranges": [
+                   {
+                      "CidrIpv6": "::/0",
+                      "Description": "SSH"
+                   }
+                ],
+                "PrefixListIds": [],
+                "ToPort": 22,
+                "UserIdGroupPairs": []
+             },
+             {
+                "FromPort": 5701,
+                "IpProtocol": "tcp",
+                "IpRanges": [
+                   {
+                      "CidrIp": "0.0.0.0/0",
+                      "Description": "hazelcast-test-2"
+                   }
+                ],
+                "Ipv6Ranges": [],
+                "PrefixListIds": [],
+                "ToPort": 5701,
+                "UserIdGroupPairs": []
+             },
+             {
+                "FromPort": 27017,
+                "IpProtocol": "tcp",
+                "IpRanges": [
+                   {
+                      "CidrIp": "0.0.0.0/0",
+                      "Description": "mongo"
+                   }
+                ],
+                "Ipv6Ranges": [],
+                "PrefixListIds": [],
+                "ToPort": 27017,
+                "UserIdGroupPairs": []
+             },
+             {
+                "FromPort": 3306,
+                "IpProtocol": "tcp",
+                "IpRanges": [
+                   {
+                      "CidrIp": "0.0.0.0/0",
+                      "Description": "mysql"
+                   }
+                ],
+                "Ipv6Ranges": [],
+                "PrefixListIds": [],
+                "ToPort": 3306,
+                "UserIdGroupPairs": []
+             },
+             {
+                "FromPort": 443,
+                "IpProtocol": "tcp",
+                "IpRanges": [
+                   {
+                      "CidrIp": "0.0.0.0/0",
+                      "Description": "HTTPS"
+                   }
+                ],
+                "Ipv6Ranges": [
+                   {
+                      "CidrIpv6": "::/0",
+                      "Description": "HTTPS"
+                   }
+                ],
+                "PrefixListIds": [],
+                "ToPort": 443,
+                "UserIdGroupPairs": []
+             }
+          ],
+          "Tags": [
+             {
+                "Key": "Name",
+                "Value": "msa_maker-test-apne2-k8s-sg"
+             },
+             {
+                "Key": "Project",
+                "Value": "msa_maker"
+             }
+          ],
+          "VpcId": "vpc-07c41a395ef34a994"
+       }
+    ],
+    "ResponseMetadata": {
+       "RequestId": "2cbf32de-fe06-49c5-ab21-61b4ab1bf125",
+       "HTTPStatusCode": 200,
+       "HTTPHeaders": {
+          "x-amzn-requestid": "2cbf32de-fe06-49c5-ab21-61b4ab1bf125",
+          "cache-control": "no-cache, no-store",
+          "strict-transport-security": "max-age=31536000; includeSubDomains",
+          "vary": "accept-encoding",
+          "content-type": "text/xml;charset=UTF-8",
+          "transfer-encoding": "chunked",
+          "date": "Wed, 20 Apr 2022 09:51:21 GMT",
+          "server": "AmazonEC2"
+       },
+       "RetryAttempts": 0
+    }
+ }

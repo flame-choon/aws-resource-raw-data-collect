@@ -1,0 +1,25 @@
+{
+    "KeyPairs": [
+       {
+          "KeyPairId": "key-067a1e2da92416c2e",
+          "KeyFingerprint": "b7:2f:95:67:26:a4:12:e0:3a:7d:d6:e0:14:39:41:2f",
+          "KeyName": "msa_maker-test-apne2-key",
+          "KeyType": "rsa",
+          "Tags": []
+       }
+    ],
+    "ResponseMetadata": {
+       "RequestId": "5ed9eb7a-75d7-47cd-9d2b-83fa5fc1cfc2",
+       "HTTPStatusCode": 200,
+       "HTTPHeaders": {
+          "x-amzn-requestid": "5ed9eb7a-75d7-47cd-9d2b-83fa5fc1cfc2",
+          "cache-control": "no-cache, no-store",
+          "strict-transport-security": "max-age=31536000; includeSubDomains",
+          "content-type": "text/xml;charset=UTF-8",
+          "content-length": "528",
+          "date": "Wed, 20 Apr 2022 06:56:31 GMT",
+          "server": "AmazonEC2"
+       },
+       "RetryAttempts": 0
+    }
+ }

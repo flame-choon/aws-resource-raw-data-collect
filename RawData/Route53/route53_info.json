@@ -1,0 +1,31 @@
+{
+    "ResponseMetadata": {
+       "RequestId": "12049032-4477-4678-8587-83e50fd63a8b",
+       "HTTPStatusCode": 200,
+       "HTTPHeaders": {
+          "x-amzn-requestid": "12049032-4477-4678-8587-83e50fd63a8b",
+          "content-type": "text/xml",
+          "content-length": "645",
+          "date": "Mon, 25 Apr 2022 01:11:23 GMT"
+       },
+       "RetryAttempts": 0
+    },
+    "HostedZone": {
+       "Id": "/hostedzone/Z0712647MZDIF6Y6JZ34",
+       "Name": "cnakj.shop.",
+       "CallerReference": "d60919cf-a03b-47fe-93c5-ed35031e15b2",
+       "Config": {
+          "Comment": "",
+          "PrivateZone": false
+       },
+       "ResourceRecordSetCount": 12
+    },
+    "DelegationSet": {
+       "NameServers": [
+          "ns-607.awsdns-11.net",
+          "ns-274.awsdns-34.com",
+          "ns-1303.awsdns-34.org",
+          "ns-1629.awsdns-11.co.uk"
+       ]
+    }
+ }    

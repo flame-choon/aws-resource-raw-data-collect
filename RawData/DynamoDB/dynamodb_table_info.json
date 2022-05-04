@@ -1,0 +1,42 @@
+{
+    "Table": {
+       "AttributeDefinitions": [
+          {
+             "AttributeName": "test",
+             "AttributeType": "S"
+          }
+       ],
+       "TableName": "dynamodb-table",
+       "KeySchema": [
+          {
+             "AttributeName": "test",
+             "KeyType": "HASH"
+          }
+       ],
+       "TableStatus": "ACTIVE",
+       "CreationDateTime": "2022-04-25 17:33:03.413000+09:00",
+       "ProvisionedThroughput": {
+          "NumberOfDecreasesToday": 0,
+          "ReadCapacityUnits": 5,
+          "WriteCapacityUnits": 5
+       },
+       "TableSizeBytes": 0,
+       "ItemCount": 0,
+       "TableArn": "arn:aws:dynamodb:ap-northeast-2:767404772322:table/dynamodb-table",
+       "TableId": "6cbf1eec-928f-4aa1-aca2-29f09d14aba4"
+    },
+    "ResponseMetadata": {
+       "RequestId": "TCN59TILEVUC9CMC9BFJMQK4DVVV4KQNSO5AEMVJF66Q9ASUAAJG",
+       "HTTPStatusCode": 200,
+       "HTTPHeaders": {
+          "server": "Server",
+          "date": "Mon, 25 Apr 2022 08:38:09 GMT",
+          "content-type": "application/x-amz-json-1.0",
+          "content-length": "484",
+          "connection": "keep-alive",
+          "x-amzn-requestid": "TCN59TILEVUC9CMC9BFJMQK4DVVV4KQNSO5AEMVJF66Q9ASUAAJG",
+          "x-amz-crc32": "861081619"
+       },
+       "RetryAttempts": 0
+    }
+ }

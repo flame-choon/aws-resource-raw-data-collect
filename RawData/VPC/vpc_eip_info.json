@@ -1,0 +1,40 @@
+{
+    "Addresses": [
+       {
+          "InstanceId": "i-036836d6a94638ba6",
+          "PublicIp": "13.124.223.34",
+          "AllocationId": "eipalloc-071cfaa08df24e52f",
+          "AssociationId": "eipassoc-0d6114d3d592f7255",
+          "Domain": "vpc",
+          "NetworkInterfaceId": "eni-049a329ef17262d47",
+          "NetworkInterfaceOwnerId": "767404772322",
+          "PrivateIpAddress": "10.10.2.227",
+          "Tags": [
+             {
+                "Key": "Project",
+                "Value": "msa_maker"
+             },
+             {
+                "Key": "Name",
+                "Value": "msa_maker-test-apne2-harbor"
+             }
+          ],
+          "PublicIpv4Pool": "amazon",
+          "NetworkBorderGroup": "ap-northeast-2"
+       }
+    ],
+    "ResponseMetadata": {
+       "RequestId": "0fb87e2b-1e11-4959-acdf-e82c212538c3",
+       "HTTPStatusCode": 200,
+       "HTTPHeaders": {
+          "x-amzn-requestid": "0fb87e2b-1e11-4959-acdf-e82c212538c3",
+          "cache-control": "no-cache, no-store",
+          "strict-transport-security": "max-age=31536000; includeSubDomains",
+          "content-type": "text/xml;charset=UTF-8",
+          "content-length": "1205",
+          "date": "Wed, 20 Apr 2022 09:37:58 GMT",
+          "server": "AmazonEC2"
+       },
+       "RetryAttempts": 0
+    }
+ }

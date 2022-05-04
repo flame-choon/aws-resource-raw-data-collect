@@ -1,0 +1,46 @@
+{
+   "Volumes": [
+      {
+         "Attachments": [
+            {
+               "AttachTime": "2021-11-30 15:19:26+00:00",
+               "Device": "/dev/sda1",
+               "InstanceId": "i-000082730bdd2ec33",
+               "State": "attached",
+               "VolumeId": "vol-0a648b3da7ba1290d",
+               "DeleteOnTermination": true
+            }
+         ],
+         "AvailabilityZone": "ap-northeast-2a",
+         "CreateTime": "2021-11-30 15:19:26.129000+00:00",
+         "Encrypted": false,
+         "Size": 50,
+         "SnapshotId": "snap-050dcc44b388532b6",
+         "State": "in-use",
+         "VolumeId": "vol-0a648b3da7ba1290d",
+         "Iops": 150,
+         "Tags": [
+            {
+               "Key": "Name",
+               "Value": "msa_maker-test-apne2-master"
+            }
+         ],
+         "VolumeType": "gp2",
+         "MultiAttachEnabled": false
+      }
+   ],
+   "ResponseMetadata": {
+      "RequestId": "c108e158-b086-4e1f-bb25-0c1b2daa3db9",
+      "HTTPStatusCode": 200,
+      "HTTPHeaders": {
+         "x-amzn-requestid": "c108e158-b086-4e1f-bb25-0c1b2daa3db9",
+         "cache-control": "no-cache, no-store",
+         "strict-transport-security": "max-age=31536000; includeSubDomains",
+         "content-type": "text/xml;charset=UTF-8",
+         "content-length": "1396",
+         "date": "Thu, 28 Apr 2022 01:12:28 GMT",
+         "server": "AmazonEC2"
+      },
+      "RetryAttempts": 0
+   }
+}

@@ -1,0 +1,60 @@
+{
+   "Images": [
+      {
+         "Architecture": "x86_64",
+         "CreationDate": "2021-05-01T00:57:16.000Z",
+         "ImageId": "ami-04876f29fd3a5e8ba",
+         "ImageLocation": "099720109477/ubuntu/images/hvm-ssd/ubuntu-focal-20.04-amd64-server-20210430",
+         "ImageType": "machine",
+         "Public": true,
+         "OwnerId": "099720109477",
+         "PlatformDetails": "Linux/UNIX",
+         "UsageOperation": "RunInstances",
+         "State": "available",
+         "BlockDeviceMappings": [
+            {
+               "DeviceName": "/dev/sda1",
+               "Ebs": {
+                  "DeleteOnTermination": true,
+                  "SnapshotId": "snap-050dcc44b388532b6",
+                  "VolumeSize": 8,
+                  "VolumeType": "gp2",
+                  "Encrypted": false
+               }
+            },
+            {
+               "DeviceName": "/dev/sdb",
+               "VirtualName": "ephemeral0"
+            },
+            {
+               "DeviceName": "/dev/sdc",
+               "VirtualName": "ephemeral1"
+            }
+         ],
+         "Description": "Canonical, Ubuntu, 20.04 LTS, amd64 focal image build on 2021-04-30",
+         "EnaSupport": true,
+         "Hypervisor": "xen",
+         "Name": "ubuntu/images/hvm-ssd/ubuntu-focal-20.04-amd64-server-20210430",
+         "RootDeviceName": "/dev/sda1",
+         "RootDeviceType": "ebs",
+         "SriovNetSupport": "simple",
+         "VirtualizationType": "hvm",
+         "DeprecationTime": "2023-05-01T00:57:16.000Z"
+      }
+   ],
+   "ResponseMetadata": {
+      "RequestId": "8789cf97-0306-4933-a788-8c7c6baa43f4",
+      "HTTPStatusCode": 200,
+      "HTTPHeaders": {
+         "x-amzn-requestid": "8789cf97-0306-4933-a788-8c7c6baa43f4",
+         "cache-control": "no-cache, no-store",
+         "strict-transport-security": "max-age=31536000; includeSubDomains",
+         "vary": "accept-encoding",
+         "content-type": "text/xml;charset=UTF-8",
+         "content-length": "2256",
+         "date": "Thu, 28 Apr 2022 01:16:10 GMT",
+         "server": "AmazonEC2"
+      },
+      "RetryAttempts": 0
+   }
+}

@@ -1,0 +1,53 @@
+{
+    "VpcPeeringConnections": [
+       {
+          "AccepterVpcInfo": {
+             "OwnerId": "767404772322",
+             "VpcId": "vpc-0819710b53015c0a2",
+             "Region": "ap-northeast-2"
+          },
+          "ExpirationTime": "2022-04-27 09:42:39+00:00",
+          "RequesterVpcInfo": {
+             "CidrBlock": "112.0.0.0/16",
+             "CidrBlockSet": [
+                {
+                   "CidrBlock": "112.0.0.0/16"
+                }
+             ],
+             "OwnerId": "767404772322",
+             "PeeringOptions": {
+                "AllowDnsResolutionFromRemoteVpc": false,
+                "AllowEgressFromLocalClassicLinkToRemoteVpc": false,
+                "AllowEgressFromLocalVpcToRemoteClassicLink": false
+             },
+             "VpcId": "vpc-00189e944de23fcab",
+             "Region": "ap-northeast-2"
+          },
+          "Status": {
+             "Code": "pending-acceptance",
+             "Message": "Pending Acceptance by 767404772322"
+          },
+          "Tags": [
+             {
+                "Key": "Name",
+                "Value": "my-pc-01"
+             }
+          ],
+          "VpcPeeringConnectionId": "pcx-0de84d51e09e872e1"
+       }
+    ],
+    "ResponseMetadata": {
+       "RequestId": "a37f83b9-6a63-4e07-9b68-c739108bed9f",
+       "HTTPStatusCode": 200,
+       "HTTPHeaders": {
+          "x-amzn-requestid": "a37f83b9-6a63-4e07-9b68-c739108bed9f",
+          "cache-control": "no-cache, no-store",
+          "strict-transport-security": "max-age=31536000; includeSubDomains",
+          "content-type": "text/xml;charset=UTF-8",
+          "content-length": "1850",
+          "date": "Wed, 20 Apr 2022 09:44:01 GMT",
+          "server": "AmazonEC2"
+       },
+       "RetryAttempts": 0
+    }
+ }

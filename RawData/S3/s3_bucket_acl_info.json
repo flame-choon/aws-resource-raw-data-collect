@@ -1,0 +1,28 @@
+{
+    "ResponseMetadata": {
+       "RequestId": "J4QEXCPXMV3WRZA0",
+       "HostId": "NdKJ0yc5//8jzK+aD+m8TpZQ+hxHNjleKo/r/VNmOtmkY0HiLFMGZw0FzW4BnHv0TlW8ctRfCHY=",
+       "HTTPStatusCode": 200,
+       "HTTPHeaders": {
+          "x-amz-id-2": "NdKJ0yc5//8jzK+aD+m8TpZQ+hxHNjleKo/r/VNmOtmkY0HiLFMGZw0FzW4BnHv0TlW8ctRfCHY=",
+          "x-amz-request-id": "J4QEXCPXMV3WRZA0",
+          "date": "Mon, 25 Apr 2022 04:30:00 GMT",
+          "content-type": "application/xml",
+          "transfer-encoding": "chunked",
+          "server": "AmazonS3"
+       },
+       "RetryAttempts": 0
+    },
+    "Owner": {
+       "ID": "effe0fbbe01985bf3a8a5f1acb75e893d417de6ab18cd1052be589f57047521f"
+    },
+    "Grants": [
+       {
+          "Grantee": {
+             "ID": "effe0fbbe01985bf3a8a5f1acb75e893d417de6ab18cd1052be589f57047521f",
+             "Type": "CanonicalUser"
+          },
+          "Permission": "FULL_CONTROL"
+       }
+    ]
+ }
